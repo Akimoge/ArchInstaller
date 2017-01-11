@@ -34,7 +34,7 @@ echo "Starting installation"
 pacstap /mnt base base-devel
 clear
 echo "Making a FSTAB record"
-genfstab -U /mnt >> /mnt/etc/FSTAB
+genfstab -U /mnt >> /mnt/etc/fstab
 clear
 echo "Entering to new system"
 echo "Updating repository and installing bootloader"
